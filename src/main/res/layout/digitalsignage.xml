@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral30"
+    tools:context=".DigitalSignage">
+
+    <TextView
+        android:id="@+id/HDB"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="HaiDengBerg Network Systems Workshop"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"/>
+
+    <ImageView
+        android:id="@+id/imgWhatsappDog"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="155dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13"
+        app:srcCompat="@drawable/whatsapp_dog"/>
+
+    <Button
+        android:id="@+id/btnWhatsApp"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="70dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/whatsapp_me"
+        android:textColor="@color/white"
+        android:textColorHighlight="?android:attr/colorPressedHighlight"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23"
+        app:rippleColor="#C6D535"/>
+
+    <ImageView
+        android:id="@+id/imgFloorStand"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39"
+        app:srcCompat="@drawable/lcd_floorstand590x460"/>
+
+    <Button
+        android:id="@+id/btnFloorStand"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="FloorStand"
+        android:textColor="@color/white"
+        android:textColorHighlight="?android:attr/colorPressedHighlight"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        app:rippleColor="#C6D535"/>
+
+    <ImageView
+        android:id="@+id/imgFloorStand5"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39"
+        app:srcCompat="@drawable/lcd_floorstand520x560"/>
+
+    <Button
+        android:id="@+id/btnFloorStand5"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="235dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="FloorStand5"
+        android:textColor="@color/white"
+        android:textColorHighlight="?android:attr/colorPressedHighlight"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        app:rippleColor="#C6D535"/>
+
+    <ImageView
+        android:id="@+id/imgVideoWall"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74"
+        app:srcCompat="@drawable/lcd_videowall630x660"/>
+
+    <Button
+        android:id="@+id/btnVideoWall"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="VideoWall"
+        android:textColor="@color/white"
+        android:textColorHighlight="?android:attr/colorPressedHighlight"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85"
+        app:rippleColor="#C6D535"/>
+
+    <ImageView
+        android:id="@+id/imgWallMount"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74"
+        app:srcCompat="@drawable/lcd_wallmount800x800"/>
+
+    <Button
+        android:id="@+id/btnWallMount"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="235dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="WallMount"
+        android:textColor="@color/white"
+        android:textColorHighlight="?android:attr/colorPressedHighlight"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85"
+        app:rippleColor="#C6D535"/>
+
+    <Button
+        android:id="@+id/btnRtnMainPage"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="70dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Return to Main Page"
+        android:textColor="@color/white"
+        android:textColorHighlight="?android:attr/colorPressedHighlight"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:rippleColor="#C6D535"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

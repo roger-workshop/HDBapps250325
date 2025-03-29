@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HDB250325</string>
+    <string name="whatsapp_me">謝謝來訪 WhatsApp Me</string>
+    <string name="hdb">HDB</string>
+    <string name="our_work">Our Work</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="doglogo">doglogo</string>
+    <string name="whatsapp">謝謝來訪 WhatsApp Me</string>
+    <string name="product">Product 產品</string>
+    <string name="digital_signage">Digital Signage</string>
+    <string name="wifi_systems">WiFi Systems</string>
+    <string name="ipcam_cctv_systems">IPcam cctv Systems</string>
+    <string name="IPcam_cctv_systems">IP Cam</string>
+    <string name="technical_service">Technical Service 技術服務</string>
+    <string name="manuals_catalog">Manuals Catalog</string>
+    <string name="service_hotline">Service Hotline 服務熱綫</string>
+</resources>
